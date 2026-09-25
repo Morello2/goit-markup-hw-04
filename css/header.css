@@ -1,0 +1,45 @@
+.header {
+  border-bottom: 1px solid #e7e9fc;
+}
+.header .container {
+  display: flex;
+}
+.logo {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.nav {
+  font-weight: 500;
+  color: #2e2f42;
+  flex-grow: 1;
+  margin-left: 76px;
+}
+
+.nav-link {
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+.nav-list {
+  display: flex;
+  gap: 40px;
+}
+.nav-link:hover,
+.nav-link:focus {
+  color: #404bbf;
+}
+.address-link {
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+.address-list {
+  display: flex;
+  gap: 40px;
+}
+
+.address-link:hover,
+.address-link:focus {
+  color: #404bbf;
+}
