@@ -19,10 +19,16 @@
   width: 264px;
   gap: 8px;
 }
-.features-icon {
+.features-back {
+  position: relative;
   width: 264px;
   height: 112px;
   border: 1px solid #8e8f99;
   border-radius: 4px;
-  padding: 24px 100px;
+  background-color: #f4f4fd;
+}
+.features-icon {
+  position: absolute;
+  top: 24px;
+  left: 100px;
 }
